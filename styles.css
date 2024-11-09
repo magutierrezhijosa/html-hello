@@ -1,0 +1,68 @@
+#cabeza {
+
+    
+    background: white;
+
+    display: flex;
+    justify-content: center;
+    margin: none;
+}
+
+#cuerpo{
+  
+
+    background: lightgray;
+    
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+body{
+
+    background: lightgray;
+    margin: 0;
+    
+}
+
+div[id*='publicacion']{
+
+
+    width: 600px;
+    margin: auto;
+
+    margin-top: 10%;
+
+    background-color: white;
+}
+
+div[id*='headPublicacion']{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+div[id*='bodyPublicacion']{
+
+   width: 100%;
+}
+img{
+    
+    width: 600px;
+}
+div[id*='bodyPublicacion'] p{
+
+    margin: 20px;
+
+
+}
+
+div[id*='headPublicacion'] p,h3{
+    margin: 10px;
+}
+
+div[id*='headPublicacion'] p{
+
+    color: lightgray;
+}
